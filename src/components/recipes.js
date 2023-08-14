@@ -7,7 +7,7 @@ const Recipes = () => {
 
     useEffect(() => {
    async function getRecipes() {
-     const response = await fetch(`https://recipez-v63x.onrender.com/record/`);           //get recipes from MongoDB
+     const response = await fetch(`https://recipez-server-c8z1.onrender.com/record/`);           //get recipes from MongoDB
 
      if (!response.ok) {
        const message = `An error occurred: ${response.statusText}`;

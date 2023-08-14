@@ -72,7 +72,7 @@ export default function Create() {
    e.preventDefault();
    // When a post request is sent to the create url, we'll add a new record to the database.
    const newRecipe = { ...form };
-   await fetch("https://recipez.onrender.com/record", {
+   await fetch("https://recipez-server-c8z1.onrender.com/record", {
      method: "POST",
      headers: {
        "Content-Type": "application/json",
